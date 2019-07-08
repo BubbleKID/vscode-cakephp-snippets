@@ -1,0 +1,29 @@
+{
+  "name": "cakephp-snippets",
+  "displayName": "cakephp-snippets",
+  "description": "cakephp-snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/controller.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/viewHtml.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/view.json"
+      }
+    ]
+  },
+  "publisher": "BubbleKID"
+}

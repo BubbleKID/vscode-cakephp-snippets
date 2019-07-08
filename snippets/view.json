@@ -1,0 +1,27 @@
+  {
+    "input": {
+      "scope": "php",
+      "prefix": "cinput",
+      "body": "echo \\$this->${1:Form}->input('${2:field}');$0"
+    },
+    "create": {
+      "scope": "php",
+      "prefix": "create",
+      "body": "echo \\$this->${1:Form}->create('${2:Model}');$0"
+    },
+    "submit": {
+      "scope": "php",
+      "prefix": "csubmit",
+      "body": "echo \\$this->${1:Form}->submit(__('${2:Save}'));$0"
+    },
+    "element": {
+      "scope": "php",
+      "prefix": "element",
+      "body": "echo \\$this->element('${1:file}');$0"
+    },
+    "link": {
+      "scope": "php",
+      "prefix": "clink",
+      "body": "echo \\$this->Html->link('${1:title}', ${2:array('controller' => '${3:controller}', 'action' => '${4:action}')});$0"
+    }
+  }

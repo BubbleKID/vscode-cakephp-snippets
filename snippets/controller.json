@@ -1,0 +1,74 @@
+{
+  "var_dump": {
+    "prefix": "vd",
+    "body": [
+      "var_dump('$1');",
+      "$2"
+    ]
+  },
+  "debug": {
+    "prefix": "db",
+    "body": [
+      "debug('$1');",
+      "$2"
+    ]
+  },
+  "find": {
+    "prefix": "fd",
+    "body": [
+      "\\$this->${1:Model}->find('${2:all}'$0);"
+    ]
+  },
+  "data": {
+    "prefix": "data",
+    "body": ["\\$this->request->data$0"]
+  },
+  "save": {
+    "prefix": "save",
+    "body": ["\\$this->${1:Model}->save(${2:\\$this->request->data})${3:;}$0"]
+  },
+  "pr": {
+    "prefix": "pr",
+    "body": ["pr($0);exit;"]
+  },
+  "set": {
+    "prefix": "set",
+    "body": ["\\$this->set($0);"]
+  },
+  "flash": {
+    "prefix": "flash",
+    "body": ["\\$this->Session->setFlash($1);$0"]
+  },
+  "conditions": {
+    "prefix": "conditions",
+    "body": ["'conditions' => array('${1:Model}.${2:id}' => ${3:\\$id})$0"]
+  },
+  "order": {
+    "prefix": "order",
+    "body": ["'order' => array('${1:Model}.${2:id}' => '${3:ASC}')$0"]
+  },
+  "contain": {
+    "prefix": "contain",
+    "body": ["'contain' => array('${1:Model}')$0"]
+  },
+  "url-array": {
+    "prefix": "url",
+    "body": ["array('controller' => '$1', 'action' => '$2'${3:, });$0"]
+  },
+  "$this->request": {
+    "prefix": "request",
+    "body": ["\\$this->request$0"]
+  },
+  "$this->redirect": {
+    "prefix": "redirect",
+    "body": ["\\$this->redirect($0);"]
+  },
+  "$this->request->params": {
+    "prefix": "params",
+    "body": ["\\$this->request->params$0"]
+  },
+  "$this->request->query": {
+    "prefix": "query",
+    "body": ["\\$this->request->query$0"]
+  }
+}

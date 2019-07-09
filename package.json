@@ -3,7 +3,14 @@
   "displayName": "CakePHP Snippets",
   "description": "CakePHP Snippets",
   "icon": "images/cakephp.png",
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BubbleKID/vscode-cakephp-snippets"
+  },
+  "keywords": [
+    "CakePhp"
+  ],
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.36.0"
   },

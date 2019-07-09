@@ -1,7 +1,8 @@
 {
   "name": "cakephp-snippets",
-  "displayName": "cakephp-snippets",
-  "description": "cakephp-snippets",
+  "displayName": "CakePHP Snippets",
+  "description": "CakePHP Snippets",
+  "icon": "images/cakephp.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.36.0"
@@ -22,6 +23,10 @@
       {
         "language": "php",
         "path": "./snippets/view.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/model.json"
       }
     ]
   },

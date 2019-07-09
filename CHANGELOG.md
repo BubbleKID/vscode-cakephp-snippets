@@ -1,9 +1,6 @@
 # Change Log
 
-All notable changes to the "cakephp-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## 0.01(9/7/2019)
 
 - Initial release

@@ -14,7 +14,7 @@
     ]
   },
   "find": {
-    "prefix": "fd",
+    "prefix": "find",
     "body": [
       "\\$this->${1:Model}->find('${2:all}'$0);"
     ]

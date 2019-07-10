@@ -1,5 +1,6 @@
 # Cake PHP snippets
 Visual Studio Code snippets code example for Cake PHP 2 & 3
+
 ## Controller
 
 | Snippet                  | Prefix     | Snippet                                    |

@@ -1,43 +1,73 @@
 {
   "var_dump": {
     "prefix": "vd",
-    "body": [
-      "var_dump('$1');",
-      "$2"
-    ]
+    "body": ["var_dump('$1');","$2"],
+    "description": "PHP: var_dump()"
   },
   "debug": {
     "prefix": "db",
-    "body": [
-      "debug('$1');",
-      "$2"
-    ]
+    "body": ["debug('$1');","$2"],
+    "description": "CakePHP: debug()"
   },
   "find": {
     "prefix": "find",
-    "body": [
-      "\\$this->${1:Model}->find('${2:all}'$0);"
-    ]
+    "body": ["\\$this->${1:Model}->find('${2:all}'$0);"],
+    "description": "CakePHP: $this->find()"
   },
   "data": {
     "prefix": "data",
-    "body": ["\\$this->request->data$0"]
+    "body": ["\\$this->request->data$0"],
+    "description": "CakePHP: $this->request->data"
   },
   "save": {
     "prefix": "save",
-    "body": ["\\$this->${1:Model}->save(${2:\\$this->request->data})${3:;}$0"]
+    "body": ["\\$this->${1:Model}->save(${2:\\$this->request->data})${3:;}$0"],
+    "description": "CakePHP: $this->Model->save()"
   },
   "pr": {
     "prefix": "pr",
-    "body": ["pr($0);exit;"]
+    "body": ["pr($0);exit;"],
+    "description": "CakePHP: pr();exit;"
   },
   "set": {
     "prefix": "set",
-    "body": ["\\$this->set($0);"]
+    "body": ["\\$this->set($0);"],
+    "description": "CakePHP: $this->set()"
   },
   "flash": {
     "prefix": "flash",
-    "body": ["\\$this->Session->setFlash($1);$0"]
+    "body": ["\\$this->Session->flash();$0"],
+    "description": "CakePHP: $this->Session->flash()"
+  },
+  "check": {
+    "prefix": "check",
+    "body": ["\\$this->Session->check(${1:\\$name});$0"],
+    "description": "CakePHP: $this->Session->check()"
+  },
+  "delete": {
+    "prefix": "delete",
+    "body": ["\\$this->Session->delete(${1:\\$name});$0"],
+    "description": "CakePHP: $this->Session->delete()"
+  },
+  "destroy": {
+    "prefix": "destroy",
+    "body": ["\\$this->Session->destroy();$0"],
+    "description": "CakePHP: $this->Session->destroy()"
+  },
+  "read": {
+    "prefix": "read",
+    "body": ["\\$this->Session->read(${1:\\$name});$0"],
+    "description": "CakePHP: $this->Session->read()"
+  },
+  "setFlash": {
+    "prefix": "setFlash",
+    "body": ["\\$this->Session->setFlash(${1:\\$message}, ${2:\\$element = 'default'}, ${3:\\$params = array()}, ${4:\\$key = 'flash'});$0"],
+    "description": "CakePHP: $this->Session->setFlash()"
+  },
+  "write": {
+    "prefix": "write",
+    "body": ["\\$this->Session->write(${1:\\$name},${2:\\$value});"],
+    "description": "CakePHP: $this->Session->write()"
   },
   "conditions": {
     "prefix": "conditions",

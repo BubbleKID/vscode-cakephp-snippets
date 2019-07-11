@@ -1,6 +1,7 @@
 # Cake PHP snippets
 Visual Studio Code snippets code example for Cake PHP 2 & 3
 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/BubbleKID.cakephp-snippets.svg)
 ## Controller
 
 | Snippet                  | Prefix     | Snippet                                    |
@@ -64,7 +65,7 @@ Visual Studio Code snippets code example for Cake PHP 2 & 3
 | `App::uses`           | uses       | App::uses('AppModel', 'Model');                                                                                                                                                                                                                               |
 
 
-Base on [vicocamacho/cakephp-snippets](https://github.com/vicocamacho/cakephp-snippets) and [openam/SublimeCakePHP](https://github.com/openam/SublimeCakePHP)
+Base on [vicocamacho/cakephp-snippets](https://github.com/vicocamacho/cakephp-snippets) and [openam/SublimeCakePHP](  https://github.com/openam/SublimeCakePHP)
 
 ## License
 

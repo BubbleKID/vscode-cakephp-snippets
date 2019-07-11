@@ -1,7 +1,8 @@
 # Cake PHP snippets
 Visual Studio Code snippets code example for Cake PHP 2 & 3
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/BubbleKID.cakephp-snippets.svg)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/BubbleKID.cakephp-snippets.svg) ![License](https://img.shields.io/github/license/BubbleKID/vscode-cakephp-snippets.svg)
+
 ## Controller
 
 | Snippet                  | Prefix     | Snippet                                    |

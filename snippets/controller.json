@@ -1,12 +1,12 @@
 {
   "var_dump": {
     "prefix": "vd",
-    "body": ["var_dump('$1');","$2"],
+    "body": ["var_dump($1);","$2"],
     "description": "PHP: var_dump()"
   },
   "debug": {
     "prefix": "db",
-    "body": ["debug('$1');","$2"],
+    "body": ["debug($1);","$2"],
     "description": "CakePHP: debug()"
   },
   "find": {
@@ -71,34 +71,42 @@
   },
   "conditions": {
     "prefix": "conditions",
-    "body": ["'conditions' => array('${1:Model}.${2:id}' => ${3:\\$id})$0"]
+    "body": ["'conditions' => array('${1:Model}.${2:id}' => ${3:\\$id})$0"],
+    "description": "CakePHP: 'conditions' => array()"    
   },
   "order": {
     "prefix": "order",
-    "body": ["'order' => array('${1:Model}.${2:id}' => '${3:ASC}')$0"]
+    "body": ["'order' => array('${1:Model}.${2:id}' => '${3:ASC}')$0"],
+    "description": "CakePHP: 'order' => array()"   
   },
   "contain": {
     "prefix": "contain",
-    "body": ["'contain' => array('${1:Model}')$0"]
+    "body": ["'contain' => array('${1:Model}')$0"],
+    "description": "CakePHP: 'contain' => array()"  
   },
   "url-array": {
     "prefix": "url",
-    "body": ["array('controller' => '$1', 'action' => '$2'${3:, });$0"]
+    "body": ["array('controller' => '$1', 'action' => '$2'${3:, });$0"],
+    "description": "CakePHP: array('controller'=>'','action'=>'')"
   },
   "$this->request": {
     "prefix": "request",
-    "body": ["\\$this->request$0"]
+    "body": ["\\$this->request$0"],
+    "description": "CakePHP: '$this->request"
   },
   "$this->redirect": {
     "prefix": "redirect",
-    "body": ["\\$this->redirect($0);"]
+    "body": ["\\$this->redirect($0);"],
+    "description": "CakePHP: '$this->redirect()"
   },
   "$this->request->params": {
     "prefix": "params",
-    "body": ["\\$this->request->params$0"]
+    "body": ["\\$this->request->params$0"],
+    "description": "CakePHP: '$this->request->params"
   },
   "$this->request->query": {
     "prefix": "query",
-    "body": ["\\$this->request->query$0"]
+    "body": ["\\$this->request->query$0"],
+    "description": "CakePHP: '$this->request->query"
   }
 }

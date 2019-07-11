@@ -5,8 +5,8 @@ Visual Studio Code snippets code example for Cake PHP 2 & 3
 
 | Snippet                  | Prefix     | Snippet                                    |
 |--------------------------|------------|-------------------------------------------|
-| `var_dump`               | vd         | var_dump('');                            |
-| `debug`                  | db         | debug('');                               |
+| `var_dump`               | vd         | var_dump();                            |
+| `debug`                  | db         | debug();                               |
 | `find`                   | find       | $this->Model->find('all');                |
 | `data`                   | data       | $this->request->data                      |
 | `save`                   | save       | $this->Model->save()                        |
@@ -42,7 +42,7 @@ Visual Studio Code snippets code example for Cake PHP 2 & 3
 
 ## View(HTML)
 
-| Snippet   | Prefix  | Output                                                                                                |
+| Snippet   | Prefix  | Snippet                                                                                                |
 |-----------|---------|-------------------------------------------------------------------------------------------------------|
 | `input`   | cinput  | \<\?php echo $this->Form->input('field'); ?>                                                          |
 | `create`  | create  | \<\?php echo $this->Form->create('Model'); ?>                                                         |
@@ -64,7 +64,7 @@ Visual Studio Code snippets code example for Cake PHP 2 & 3
 | `App::uses`           | uses       | App::uses('AppModel', 'Model');                                                                                                                                                                                                                               |
 
 
-Base on [vicocamacho/cakephp-snippets](https://github.com/vicocamacho/cakephp-snippets) and [openam/SublimeCakePHP](https://https://github.com/openam/SublimeCakePHP)
+Base on [vicocamacho/cakephp-snippets](https://github.com/vicocamacho/cakephp-snippets) and [openam/SublimeCakePHP](https://github.com/openam/SublimeCakePHP)
 
 ## License
 

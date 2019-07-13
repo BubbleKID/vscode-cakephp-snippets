@@ -34,6 +34,46 @@
     "body": ["\\$this->set($0);"],
     "description": "CakePHP: $this->set()"
   },
+  "allow ": {
+    "prefix": "allow",
+    "body": ["\\$this->Auth->allow(${1:array($2)})"],
+    "description": "CakePHP: $this->->Auth->allow()"
+  },
+  "authenticate ": {
+    "prefix": "authenticate",
+    "body": ["\\$this->Auth->authenticate = array($1);"],
+    "description": "CakePHP: $this->->Auth->authenticate()"
+  },
+  "deny": {
+    "prefix": "deny",
+    "body": ["\\$this->Auth->deny(${1:array($2)})"],
+    "description": "CakePHP: $this->->Auth->deny()"
+  },
+  "loggedIn": {
+    "prefix": "loggedIn",
+    "body": ["\\$this->Auth->loggedIn()"],
+    "description": "CakePHP: $this->->Auth->loggedIn()"
+  },
+  "login": {
+    "prefix": "login",
+    "body": ["\\$this->Auth->login($1)"],
+    "description": "CakePHP: $this->->Auth->login()"
+  },
+  "logout": {
+    "prefix": "logout",
+    "body": ["\\$this->Auth->logout()"],
+    "description": "CakePHP: $this->->Auth->logout()"
+  },
+  "mapActions": {
+    "prefix": "mapActions",
+    "body": ["\\$this->Auth->mapActions(${1:array($2)})"],
+    "description": "CakePHP: $this->->Auth->mapActions()"
+  },
+  "redirectUrl": {
+    "prefix": "redirectUrl",
+    "body": ["\\$this->Auth->redirectUrl()"],
+    "description": "CakePHP: $this->->Auth->redirectUrl()"
+  },
   "flash": {
     "prefix": "flash",
     "body": ["\\$this->Session->flash();$0"],

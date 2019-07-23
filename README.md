@@ -15,6 +15,8 @@
   <img src="https://img.shields.io/github/license/BubbleKID/vscode-cakephp-snippets.svg" alt="License"/>
 </p>
 
+## Demo
+![Subheader Demo](images/demo1.gif)
 
 ## Controller
 
@@ -27,14 +29,14 @@
 | `save`                   | save         | $this->Model->save()                      |
 | `pr`                     | pr           | pr();exit;                                |
 | `set`                    | set          | $this->set();                             |
-| `allow`                  | allow        | $this->Auth->allow()                    |
-| `authenticate`           | authenticate | $this->Auth->authenticate()             |
-| `deny`                   | deny         | $this->Auth->deny()                     |
-| `loggedIn`               | loggedIn     | $this->Auth->loggedIn()                 |
-| `login`                  | login        | $this->Auth->login()                    |
-| `logout`                 | logout       | $this->Auth->logout()                   |
-| `mapActions`             | mapActions   | $this->Auth->mapActions()               |
-| `redirectUrl`            | redirectUrl  | $this->Auth->redirectUrl()              |
+| `allow`                  | allow        | $this->Auth->allow()                      |
+| `authenticate`           | authenticate | $this->Auth->authenticate()               |
+| `deny`                   | deny         | $this->Auth->deny()                       |
+| `loggedIn`               | loggedIn     | $this->Auth->loggedIn()                   |
+| `login`                  | login        | $this->Auth->login()                      |
+| `logout`                 | logout       | $this->Auth->logout()                     |
+| `mapActions`             | mapActions   | $this->Auth->mapActions()                 |
+| `redirectUrl`            | redirectUrl  | $this->Auth->redirectUrl()                |
 | `flash`                  | flash        | $this->Session->flash();                  |
 | `check`                  | check        | $this->Session->check();                  |
 | `delete`                 | delete       | $this->Session->delete();                 |
@@ -54,13 +56,35 @@
 
 ## View
 
-| Snippet   | Prefix  | Snippet                                                                               |
-|-----------|---------|---------------------------------------------------------------------------------------|
-| `input`   | cinput  | $this->Form->input('field');                                                          |
-| `create`  | create  | $this->Form->create('Model');                                                         |
-| `submit`  | csubmit | $this->Form->submit(__(Save));                                                        |
-| `element` | element | $this->element('file');                                                               |
-| `link`    | clink   | $this->Html->link('title', array('controller' => 'controller', 'action => 'action')); |
+| Snippet   | Prefix  | Snippet                |
+|-----------|---------|------------------------|
+| `create`  | create  | $this->Form->create(); |
+| `end`   | end   | $this->Form->end();  |
+| `input`   | input   | $this->Form->input();  |
+| `inputs`   | inputs   | $this->Form->inputs();  |
+| `label`   | label   | $this->Form->label();  |
+| `text`   | text   | $this->Form->text();  |
+| `password`   | password   | $this->Form->password();  |
+| `hidden`   | hidden   | $this->Form->hidden();  |
+| `textarea`   | textarea   | $this->Form->textarea();  |
+| `radio`   | radio   | $this->Form->radio();  |
+| `select`   | select   | $this->Form->select();  |
+| `file`   | file   | $this->Form->file();  |
+| `button`   | button   | $this->Form->button();  |
+| `postButton`   | postButton   | $this->Form->postButton();  |
+| `postLink`   | postLink   | $this->Form->postLink();  |
+| `year`   | year   | $this->Form->year();  |
+| `month`   | month   | $this->Form->month();  |
+| `day`   | day   | $this->Form->day();  |
+| `hour`   | hour   | $this->Form->hour();  |
+| `meridian`   | meridian   | $this->Form->meridian();  |
+| `error`   | error   | $this->Form->error();  |
+| `isFieldError`   | isFieldError   | $this->Form->isFieldError();  |
+| `unlockField`   | unlockField   | $this->Form->unlockField();  |
+| `secure`   | secure   | $this->Form->secure();  |
+| `submit`  | submit  | $this->Form->submit(); |
+| `element` | element | $this->element();      |
+| `link`    | clink   | $this->Html->link();   |
 
 
 ## View(HTML)

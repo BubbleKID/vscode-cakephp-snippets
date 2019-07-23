@@ -10,7 +10,7 @@
   "keywords": [
     "CakePhp"
   ],
-  "version": "1.0.3",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.36.0"
   },
@@ -34,10 +34,6 @@
       {
         "language": "php",
         "path": "./snippets/model.json"
-      },
-      {
-        "language": "php",
-        "path": "./snippets/components.json"
       }
     ]
   },

@@ -17,7 +17,7 @@
 
 ## Demo
 ![Subheader Demo](images/demo1.gif)
-
+![Subheader Demo](images/demo2.gif)
 ## Controller
 
 | Snippet                  | Prefix       | Snippet                                   |
@@ -56,46 +56,68 @@
 
 ## View
 
-| Snippet   | Prefix  | Snippet                |
-|-----------|---------|------------------------|
-| `create`  | create  | $this->Form->create(); |
-| `end`   | end   | $this->Form->end();  |
-| `input`   | input   | $this->Form->input();  |
-| `inputs`   | inputs   | $this->Form->inputs();  |
-| `label`   | label   | $this->Form->label();  |
-| `text`   | text   | $this->Form->text();  |
-| `password`   | password   | $this->Form->password();  |
-| `hidden`   | hidden   | $this->Form->hidden();  |
-| `textarea`   | textarea   | $this->Form->textarea();  |
-| `radio`   | radio   | $this->Form->radio();  |
-| `select`   | select   | $this->Form->select();  |
-| `file`   | file   | $this->Form->file();  |
-| `button`   | button   | $this->Form->button();  |
-| `postButton`   | postButton   | $this->Form->postButton();  |
-| `postLink`   | postLink   | $this->Form->postLink();  |
-| `year`   | year   | $this->Form->year();  |
-| `month`   | month   | $this->Form->month();  |
-| `day`   | day   | $this->Form->day();  |
-| `hour`   | hour   | $this->Form->hour();  |
-| `meridian`   | meridian   | $this->Form->meridian();  |
-| `error`   | error   | $this->Form->error();  |
-| `isFieldError`   | isFieldError   | $this->Form->isFieldError();  |
-| `unlockField`   | unlockField   | $this->Form->unlockField();  |
-| `secure`   | secure   | $this->Form->secure();  |
-| `submit`  | submit  | $this->Form->submit(); |
-| `element` | element | $this->element();      |
-| `link`    | clink   | $this->Html->link();   |
+| Snippet        | Prefix       | Snippet                      |
+|----------------|--------------|------------------------------|
+| `create`       | create       | $this->Form->create();       |
+| `end`          | end          | $this->Form->end();          |
+| `input`        | input        | $this->Form->input();        |
+| `inputs`       | inputs       | $this->Form->inputs();       |
+| `label`        | label        | $this->Form->label();        |
+| `text`         | text         | $this->Form->text();         |
+| `password`     | password     | $this->Form->password();     |
+| `hidden`       | hidden       | $this->Form->hidden();       |
+| `textarea`     | textarea     | $this->Form->textarea();     |
+| `radio`        | radio        | $this->Form->radio();        |
+| `select`       | select       | $this->Form->select();       |
+| `file`         | file         | $this->Form->file();         |
+| `button`       | button       | $this->Form->button();       |
+| `postButton`   | postButton   | $this->Form->postButton();   |
+| `postLink`     | postLink     | $this->Form->postLink();     |
+| `year`         | year         | $this->Form->year();         |
+| `month`        | month        | $this->Form->month();        |
+| `day`          | day          | $this->Form->day();          |
+| `hour`         | hour         | $this->Form->hour();         |
+| `meridian`     | meridian     | $this->Form->meridian();     |
+| `error`        | error        | $this->Form->error();        |
+| `isFieldError` | isFieldError | $this->Form->isFieldError(); |
+| `unlockField`  | unlockField  | $this->Form->unlockField();  |
+| `secure`       | secure       | $this->Form->secure();       |
+| `submit`       | submit       | $this->Form->submit();       |
+| `element`      | element      | $this->element();            |
+| `link`         | clink        | $this->Html->link();         |
 
 
 ## View(HTML)
 
-| Snippet   | Prefix  | Snippet                                                                                               |
-|-----------|---------|-------------------------------------------------------------------------------------------------------|
-| `input`   | cinput  | \<\?php echo $this->Form->input('field'); ?>                                                          |
-| `create`  | create  | \<\?php echo $this->Form->create('Model'); ?>                                                         |
-| `submit`  | csubmit | \<\?php echo $this->Form->submit(__(Save));  ?>                                                       |
-| `element` | element | \<\?php echo $this->element('file'); ?>                                                               |
-| `link`    | clink   | \<\?php echo $this->Html->link('title', array('controller' => 'controller', 'action => 'action')); ?> |
+| Snippet        | Prefix       | Snippet                               |
+|----------------|--------------|---------------------------------------|
+| `create`       | create       | <?php $this->Form->create(); ?>       |
+| `end`          | end          | <?php $this->Form->end(); ?>          |
+| `input`        | input        | <?php $this->Form->input(); ?>        |
+| `inputs`       | inputs       | <?php $this->Form->inputs(); ?>       |
+| `label`        | label        | <?php $this->Form->label(); ?>        |
+| `text`         | text         | <?php $this->Form->text(); ?>         |
+| `password`     | password     | <?php $this->Form->password(); ?>     |
+| `hidden`       | hidden       | <?php $this->Form->hidden(); ?>       |
+| `textarea`     | textarea     | <?php $this->Form->textarea(); ?>     |
+| `radio`        | radio        | <?php $this->Form->radio(); ?>        |
+| `select`       | select       | <?php $this->Form->select(); ?>       |
+| `file`         | file         | <?php $this->Form->file(); ?>         |
+| `button`       | button       | <?php $this->Form->button(); ?>       |
+| `postButton`   | postButton   | <?php $this->Form->postButton(); ?>   |
+| `postLink`     | postLink     | <?php $this->Form->postLink(); ?>     |
+| `year`         | year         | <?php $this->Form->year(); ?>         |
+| `month`        | month        | <?php $this->Form->month(); ?>        |
+| `day`          | day          | <?php $this->Form->day(); ?>          |
+| `hour`         | hour         | <?php $this->Form->hour(); ?>         |
+| `meridian`     | meridian     | <?php $this->Form->meridian(); ?>     |
+| `error`        | error        | <?php $this->Form->error(); ?>        |
+| `isFieldError` | isFieldError | <?php $this->Form->isFieldError(); ?> |
+| `unlockField`  | unlockField  | <?php $this->Form->unlockField(); ?>  |
+| `secure`       | secure       | <?php $this->Form->secure(); ?>       |
+| `submit`       | submit       | <?php $this->Form->submit(); ?>       |
+| `element`      | element      | <?php $this->element(); ?>            |
+| `link`         | clink        | <?php $this->Html->link(); ?>         |
 
 
 ## Model

@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.11(6/8/2019)
+- Add end, inputs, label, text, password, hidden, textarea, radio, select,file, button, postButton, postLink, year, month, day, hour, meridian, error, isFieldError, unlockField, secure for $this->Form(html)
+
 ## 1.10(23/7/2019)
 - Add end, inputs, label, text, password, hidden, textarea, radio, select,file, button, postButton, postLink, year, month, day, hour, meridian, error, isFieldError, unlockField, secure for $this->Form
 

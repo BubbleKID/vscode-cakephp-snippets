@@ -146,7 +146,7 @@
     "submit": {
       "scope": "php",
       "prefix": "csubmit",
-      "body": "echo \\$this->Form->submit(__('${2:Save}'));$0",
+      "body": "echo \\$this->Form->submit(__('${1:Save}'));$0",
       "descreitopn": "CakePHP: $this->Form->submit()"
     },
     "element": {

@@ -17,6 +17,7 @@
 
 ## Demo
 ![Subheader Demo](images/demo1.gif)
+<br>
 ![Subheader Demo](images/demo2.gif)
 ## Controller
 

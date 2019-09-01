@@ -3,162 +3,162 @@
       "scope": "php",
       "prefix": "create",
       "body": "echo \\$this->Form->create('${1:Model}');$0",
-      "descreitopn": "CakePHP: $this->Form->create()"
+      "description": "CakePHP: $this->Form->create()"
     },
     "end": {
       "scope": "php",
       "prefix": "end",
       "body": "echo \\$this->Form->end();$0",
-      "descreitopn": "CakePHP: $this->Form->end()"
+      "description": "CakePHP: $this->Form->end()"
     },
     "input": {
       "scope": "php",
       "prefix": "input",
       "body": "echo \\$this->Form->input('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->input()"
+      "description": "CakePHP: $this->Form->input()"
     },
     "inputs": {
       "scope": "php",
       "prefix": "inputs",
       "body": "echo \\$this->Form->inputs('${1:fields}');$0",
-      "descreitopn": "CakePHP: $this->Form->inputs()"
+      "description": "CakePHP: $this->Form->inputs()"
     },
     "label": {
       "scope": "php",
       "prefix": "label",
       "body": "echo \\$this->Form->label('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->label()"
+      "description": "CakePHP: $this->Form->label()"
     },
     "text": {
       "scope": "php",
       "prefix": "text",
       "body": "echo \\$this->Form->text('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->text()"
+      "description": "CakePHP: $this->Form->text()"
     },
     "password": {
       "scope": "php",
       "prefix": "password",
       "body": "echo \\$this->Form->password('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->password()"
+      "description": "CakePHP: $this->Form->password()"
     },
     "hidden": {
       "scope": "php",
       "prefix": "hidden",
       "body": "echo \\$this->Form->hidden('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->hidden()"
+      "description": "CakePHP: $this->Form->hidden()"
     },
     "textarea": {
       "scope": "php",
       "prefix": "textarea",
       "body": "echo \\$this->Form->textarea('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->textarea()"
+      "description": "CakePHP: $this->Form->textarea()"
     },
     "radio": {
       "scope": "php",
       "prefix": "radio",
       "body": "echo \\$this->Form->radio('${1:field}', ${2:\\$options});$0",
-      "descreitopn": "CakePHP: $this->Form->radio()"
+      "description": "CakePHP: $this->Form->radio()"
     },
     "select": {
       "scope": "php",
       "prefix": "select",
       "body": "echo \\$this->Form->select('${1:field}', ${2:\\$options});$0",
-      "descreitopn": "CakePHP: $this->Form->select()"
+      "description": "CakePHP: $this->Form->select()"
     },
     "file": {
       "scope": "php",
       "prefix": "file",
       "body": "echo \\$this->Form->file('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->file()"
+      "description": "CakePHP: $this->Form->file()"
     },
     "button": {
       "scope": "php",
       "prefix": "button",
       "body": "echo \\$this->Form->button('${1:title}');$0",
-      "descreitopn": "CakePHP: $this->Form->button()"
+      "description": "CakePHP: $this->Form->button()"
     },
     "postButton": {
       "scope": "php",
       "prefix": "postButton",
       "body": "echo \\$this->Form->postButton('${1:title}',${2:\\$url}, ${3:\\$options});$0",
-      "descreitopn": "CakePHP: $this->Form->postButton()"
+      "description": "CakePHP: $this->Form->postButton()"
     },
     "postLink": {
       "scope": "php",
       "prefix": "postLink",
       "body": "echo \\$this->Form->postLink('${1:title}', ${2:\\$url}, ${3:\\$options});$0",
-      "descreitopn": "CakePHP: $this->Form->postLink()"
+      "description": "CakePHP: $this->Form->postLink()"
     },
     "year": {
       "scope": "php",
       "prefix": "year",
       "body": "echo \\$this->Form->year('${1:field}', ${2:\\$minYear}, ${3:\\$maxYear}, ${4:\\$attributes});$0",
-      "descreitopn": "CakePHP: $this->Form->year()"
+      "description": "CakePHP: $this->Form->year()"
     },
     "month": {
       "scope": "php",
       "prefix": "month",
       "body": "echo \\$this->Form->month('${1:field}', ${2:\\$attributes});$0",
-      "descreitopn": "CakePHP: $this->Form->month()"
+      "description": "CakePHP: $this->Form->month()"
     },
     "day": {
       "scope": "php",
       "prefix": "day",
       "body": "echo \\$this->Form->day('${1:field}', ${2:\\$attributes});$0",
-      "descreitopn": "CakePHP: $this->Form->day()"
+      "description": "CakePHP: $this->Form->day()"
     },
     "hour": {
       "scope": "php",
       "prefix": "hour",
       "body": "echo \\$this->Form->hour('${1:field}', ${2:\\$attributes});$0",
-      "descreitopn": "CakePHP: $this->Form->hour()"
+      "description": "CakePHP: $this->Form->hour()"
     },
     "meridian": {
       "scope": "php",
       "prefix": "meridian",
       "body": "echo \\$this->Form->meridian('${1:field}', ${2:\\$attributes});$0",
-      "descreitopn": "CakePHP: $this->Form->merdian()"
+      "description": "CakePHP: $this->Form->meridian()"
     },
     "error": {
       "scope": "php",
       "prefix": "error",
       "body": "echo \\$this->Form->error('${1:\\$field}', '${2:\\$text}');$0",
-      "descreitopn": "CakePHP: $this->Form->error()"
+      "description": "CakePHP: $this->Form->error()"
     },
     "isFieldError": {
       "scope": "php",
       "prefix": "isFieldError",
       "body": "echo \\$this->Form->isFieldError('${1:field}');$0",
-      "descreitopn": "CakePHP: $this->Form->isFieldError()"
+      "description": "CakePHP: $this->Form->isFieldError()"
     },
     "unlockField": {
       "scope": "php",
       "prefix": "unlockField",
       "body": "echo \\$this->Form->unlockField('${1:name}');$0",
-      "descreitopn": "CakePHP: $this->Form->unlockField()"
+      "description": "CakePHP: $this->Form->unlockField()"
     },
     "secure": {
       "scope": "php",
       "prefix": "secure",
       "body": "echo \\$this->Form->secure(${1:\\$fields}, ${2:\\$secureAttributes});$0",
-      "descreitopn": "CakePHP: $this->Form->secure()"
+      "description": "CakePHP: $this->Form->secure()"
     },
     "submit": {
       "scope": "php",
       "prefix": "csubmit",
       "body": "echo \\$this->Form->submit(__('${1:Save}'));$0",
-      "descreitopn": "CakePHP: $this->Form->submit()"
+      "description": "CakePHP: $this->Form->submit()"
     },
     "element": {
       "scope": "php",
       "prefix": "element",
       "body": "echo \\$this->element('${1:file}');$0",
-      "descreitopn": "CakePHP: $this->element()"
+      "description": "CakePHP: $this->element()"
     },
     "link": {
       "scope": "php",
       "prefix": "clink",
       "body": "echo \\$this->Html->link('${1:title}', ${2:array('controller' => '${3:controller}', 'action' => '${4:action}')});$0",
-      "descreitopn": "CakePHP: $this->Html->link()"
+      "description": "CakePHP: $this->Html->link()"
     }
   }

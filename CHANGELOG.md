@@ -1,4 +1,6 @@
 # Change Log
+## 1.12(13/9/2019)
+- Correct spelling errors.
 
 ## 1.11(6/8/2019)
 - Add end, inputs, label, text, password, hidden, textarea, radio, select,file, button, postButton, postLink, year, month, day, hour, meridian, error, isFieldError, unlockField, secure for $this->Form(html)

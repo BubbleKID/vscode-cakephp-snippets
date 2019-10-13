@@ -1,4 +1,8 @@
 # Change Log
+## 1.13(13/10/2019)
+- Add loadModel, die(json_encode())
+- Modify debug and var_dump
+ 
 ## 1.12(13/9/2019)
 - Correct spelling errors.
 
@@ -15,5 +19,4 @@
 - Add check, delete, destroy, read, flash
 
 ## 1.00(9/7/2019)
-
 - Initial release

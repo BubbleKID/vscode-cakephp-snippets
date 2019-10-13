@@ -1,13 +1,23 @@
 {
   "var_dump": {
     "prefix": "vd",
-    "body": ["var_dump($1);","$2"],
+    "body": ["var_dump($1);","$0"],
     "description": "PHP: var_dump()"
   },
   "debug": {
     "prefix": "db",
-    "body": ["debug($1);","$2"],
+    "body": ["debug($1);","$0"],
     "description": "CakePHP: debug()"
+  },
+  "die(json_encode())": {
+    "prefix": "dj",
+    "body": ["die(json_encode($1));","$0"],
+    "description": "CakePHP: die(json_encode())"
+  },
+  "$this->loadModel()": {
+    "prefix": "lm",
+    "body": ["\\$this->loadModel('$1');","$0"],
+    "description": "CakePHP: $this->loadModel()"
   },
   "find": {
     "prefix": "find",

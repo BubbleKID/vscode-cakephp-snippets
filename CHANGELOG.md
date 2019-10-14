@@ -1,4 +1,7 @@
 # Change Log
+## 1.14(14/10/2019)
+- Update readme
+
 ## 1.13(13/10/2019)
 - Add loadModel, die(json_encode())
 - Modify debug and var_dump

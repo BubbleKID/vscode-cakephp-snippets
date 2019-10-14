@@ -13,6 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/visual-studio-marketplace/v/BubbleKID.cakephp-snippets.svg" alt="Visual Studio Marketplace Version"/>
   <img src="https://img.shields.io/github/license/BubbleKID/vscode-cakephp-snippets.svg" alt="License"/>
+  <img src="https://img.shields.io/github/stars/BubbleKID/vscode-cakephp-snippets?style=social" alt="Github"/>
 </p>
 
 ## Demo
@@ -25,6 +26,8 @@
 |--------------------------|--------------|-------------------------------------------|
 | `var_dump`               | vd           | var_dump();                               |
 | `debug`                  | db           | debug();                                  |
+| `die(json_encode())`     | dj           | die(json_encode());                       |
+| `loadModel`              | lm           | $this->loadModel('');                       |
 | `find`                   | find         | $this->Model->find('all');                |
 | `data`                   | data         | $this->request->data                      |
 | `save`                   | save         | $this->Model->save()                      |
